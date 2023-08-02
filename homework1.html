@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Nieves Homework 1 - Weather App</title>
+<style>
+   
+  body {
+    background-color:#bbe4e9
+   }   
+
+  h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #5585b5;
+    width: 600px;
+    height: 50px;
+    margin: auto;
+   }
+
+  h1:hover {
+    background-color: #79c2d030;
+    border-radius: 30px;
+    transition:all 300ms ease-in-out;
+    cursor:pointer;
+   }
+
+  h2 {
+    border: 0px;
+    border-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 5px;
+    font-weight:lighter;
+    font-size:35px;
+   
+  } 
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+   }
+
+   button {
+    font-size: light;
+    font-weight: 500;
+    color: #79c2d0;
+    background-color: #f0fbff;
+    padding: 10px;
+    margin: 20px auto 0;
+    display: block;
+    border: 2px solid #2e94b970;
+    border-radius: 25px;
+    box-shadow: 7px 5px 7px #6662ac80;
+    }
+
+   button:hover {
+    background: #79c2d0;
+    color: #f0fbff;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    box-shadow: inset rgba(23, 120, 156, 0.9) 7px 5px 7px;
+    }
+
+   a {
+        text-decoration: none;
+        border-radius: 30px;
+    }
+   a:hover{
+        background-color: #7fffd450;
+        text-decoration: underline;
+        transition: all 300ms ease-in-out;
+    }
+    
+   .section{
+    width: 400px;
+    margin:auto;
+   } 
+   .section:hover {
+     background-color: #79c2d030;
+     border-radius: 30px;
+     transition: all 300ms ease-in-out;
+     
+    }
+
+   .day-of {
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    color: rgb(80, 80, 206);
+    padding-bottom: 10px;
+    margin: 0px;
+    padding-top: 30px;
+   }
+
+   .day-of-temp {
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+    margin-top: 15px;;
+    margin-bottom:25px;
+    padding: 0px;
+    color:#48858e;
+   }
+
+   .day {
+    color: #5585b5;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+   }
+
+   .temps {
+    color:#53a8b6;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: lighter;
+   }
+   
+   .me {
+    color:rgba(23, 120, 156)
+   }
+   
+   .footer-note {
+    margin: 80px;
+    text-align: center;
+    font-style: italic;
+   }
+    
+</style>
+</head>
+<body>
+    <h1>
+        The Earth Today 🌎 Weather Report
+    </h1>
+
+<ul>
+   <div> 
+    <li class="day-of">
+       🌞Today in New York🗽 
+        <div class="day-of-temp">
+            78°/<strong>83°</strong>
+        </div>
+    </li>
+
+    <div class="section"> 
+    <li >
+    <h2 class="day">
+        🌞 Tomorrow
+    </h2>
+    <h3>
+        <div class="temps">
+            79°/<strong>85°</strong>
+        </div>
+    </h3>
+    </li>
+    </div>
+   
+    <div class="section"> 
+    <li >
+    <h2 class="day">
+        ☔ Saturday
+    </h2>
+    <h3>
+        <div class="temps">
+            70°/<strong>76°</strong>
+        </div>
+    </h3>
+    </li>
+    </div>
+    
+    <div class="section"> 
+    <li >
+        <h2 class="day">
+            ☔ Sunday
+        </h2>
+        <h3>
+            <div class="temps">
+                70°/<strong>78°</strong>
+            </div>
+        </h3>
+    </li>
+    </div>
+
+    <div class="section"> 
+    <li>
+        <h2 class="day">
+            🌦️ Monday
+        </h2>
+        <h3>
+            <div class="temps">
+                73°/<strong>80°</strong>
+            </div>
+        </h3>
+    </li>
+    </div>
+</ul>
+
+    <button> 
+        Change City 
+    </button>
+
+    <div class="footer-note">
+        <span>Coded by <a href="https://www.linkedin.com/in/sarah-mv-nieves/"> <span class="me">Sarah Nieves</span></a></span>
+    </div>
+
+</body>
+</html>
